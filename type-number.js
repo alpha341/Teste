@@ -2,7 +2,7 @@
 
 const meuNumero = 3;
 
-const primeiroNumero = 1;
+const primeiroNumero = true;
 const segundoNumero = 0;
 const alura = "Alura"
 
@@ -20,9 +20,6 @@ const aMaiusculo = '\u0041'
 const tique = '\u2705'
 const hiragana = '\u3041'
 
-console.log(texto1 + " " + texto2)
-
-
 const cidade = "belo horizonte";
 const input = "Belo Horizonte";
 
@@ -30,5 +27,15 @@ const inputMinusculo = input.toLowerCase();
 
 console.log(cidade == inputMinusculo);
 
-console.log(cidade.length);
+console.log(typeof primeiroNumero);
+
+//Number
+//String
+
+const numero = 1;
+const numeroString = Number("1a");
+
+console.log (numero + numeroString)
+
+
 
